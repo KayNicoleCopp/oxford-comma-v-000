@@ -4,6 +4,6 @@ if array.count == 1
 elsif array.count == 2
   array.join(" and ")
 elsif array.count >= 3
-  array.to_s
+  array.to_sentence
 end
 end
